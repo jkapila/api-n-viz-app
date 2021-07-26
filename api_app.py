@@ -12,8 +12,8 @@ import os
 ### doing processing
 df = pd.DataFrame({"style_J":[.3,.2,0.2,0.3],
                   "style_K":[.2,.2,0.1,0.3],
-                  "style_L":[.5,0,0.5,0.1],
-                  "style_M":[0,.6,0.2,0.3]},index = ["A","B","C","D"])
+                  "style_L":[.5,0,0.5,0.05],
+                  "style_M":[0,.6,0.2,0.35]},index = ["A","B","C","D"])
 
 df.to_csv(os.path.join(os.getcwd(),'data','distribution_file.csv'))
 df_samp = pd.read_csv(os.path.join(os.getcwd(),'data','Inventory.csv'))
