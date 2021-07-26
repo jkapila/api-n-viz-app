@@ -4,3 +4,4 @@ streamlit==0.85.0
 flask
 flask-restful
 gunicorn
+tabulate
