@@ -96,4 +96,4 @@ api.add_resource(Item, '/update')
 if __name__ == '__main__':
     print('Current Distribution of style per group')
     print(df.to_json(orient="index"))
-    app.run(host='0.0.0.0', port=8503,ssl_context="adhoc")
+    app.run(host='0.0.0.0', port=8000)
