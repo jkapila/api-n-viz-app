@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run main_app.py > streamlit_logs.log 2>&1 & && gunicorn api_app:app
+web: sh setup.sh && streamlit run main_app.py && gunicorn api_app:app
